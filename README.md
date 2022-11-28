@@ -4,6 +4,6 @@
 Nombre | Descripción
 -------|------------
 [Tema 0](/Tema0) | Hemos iniciado un server con pyton con un simple comando
-[Scripts Bash](/sripts_bash) | Hemos hecho varios scripts con bash
+[Scripts Bash](/scripts_bash) | Hemos hecho varios scripts con bash
 
 
