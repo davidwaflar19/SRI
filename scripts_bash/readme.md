@@ -25,6 +25,6 @@ Y una vez insertados, se creará un archivo HTML con lo introducido anteriorment
 * Script para crear puertos en Apache.
 	* [Script 1](/scripts_bash/scripts/script).
 * Script para crear nuevos nombres de dominio (archivo "Hosts").
-	* [Script 2](/scripts_bash/script2.sh).
+	* [Script 2](/scripts_bash/scripts/script2).
 * Script para crear archivos HTML básicos.
-	* [Script 3](/scripts_bash/script3).
+	* [Script 3](/scripts_bash/scripts/script3).
