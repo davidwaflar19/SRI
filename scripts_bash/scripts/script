@@ -1,0 +1,13 @@
+#!/bin/bash
+echo Introduce un puerto
+read puerto
+grep -q $puerto /etc/apache2/ports.bak
+
+if [ $? = 0 ];
+	then
+		echo Este puerto existe
+	else 
+		echo 'Listen' $puerto >> /etc/apache2/ports.bak
+		cat /etc/apache2/ports.bak
+
+fi
