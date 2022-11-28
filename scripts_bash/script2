@@ -1,0 +1,15 @@
+#!/bin/bash
+echo Introduce una IP
+read ip
+echo introduce un dominio
+read domi
+grep -q $ip /etc/hosts
+
+if [ $? = 0 ];
+	then
+		echo Esta IP existe
+	else 
+		echo $ip'	'$domi >> /etc/hosts
+		cat /etc/apache2/ports.bak
+
+fi

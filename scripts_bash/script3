@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo Introduce un titulo
+read title
+echo Introduce una cabecera
+read cabe
+echo Introduce un mensaje
+read mens
+
+
+echo "<html>" >> /var/www/html/prueba/index.html
+echo "<title>" $title "</title>" >> /var/www/html/prueba/index.html
+echo "<body>" >> /var/www/html/prueba/index.html
+echo "<h1>" $cabe "</h1>" >> /var/www/html/prueba/index.html
+echo $mens "</body>" >> /var/www/html/prueba/index.html
+echo "</html>" >> /var/www/html/prueba/index.html
