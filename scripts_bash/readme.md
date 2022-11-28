@@ -27,4 +27,4 @@ Y una vez insertados, se creará un archivo HTML con lo introducido anteriorment
 * Script para crear nuevos nombres de dominio (archivo "Hosts").
 	* [Script 2](/scripts_bash/script2.sh).
 * Script para crear archivos HTML básicos.
-	* [Script 3](/scripts_bash/script3.sh).
+	* [Script 3](/scripts_bash/script3).
